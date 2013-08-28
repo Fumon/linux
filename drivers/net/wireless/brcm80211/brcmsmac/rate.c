@@ -139,7 +139,7 @@ const struct brcms_mcs_info mcs_table[MCS_TABLE_SIZE] = {
 	{260000, 540000, CEIL(260000 * 10, 9), CEIL(540000 * 10, 9), 0xDB,
 	 BRCM_RATE_54M},
 	/* MCS 32: SS 1, MOD: BPSK,  CR 1/2 */
-	{0, 6000, 0, CEIL(6000 * 10, 9), 0x00, BRCM_RATE_6M},
+	{1, 6000, 1, CEIL(6000 * 10, 9), 0x00, BRCM_RATE_6M},
 };
 
 /*
